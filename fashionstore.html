@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href = "fashionstore.css" rel = "stylesheet">
+        <script src = "fashionstore.js"></script>
+        <title>The Online Store</title>
+    </head>
+    <body>
+        <div class= "rectangle">
+             
+            
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div id = "homepage">
+                <ul>
+                <li><a href="#" data-text = "Hair">Hair</a></li>
+                <li><a href="#" data-text = "Accessories">Accessories</a></li>
+                <li><a href="#" data-text = "Shoes">Shoes</a></li>
+                <li><a href="#" data-text = "Cart">Cart</a></li>
+                </ul>
+                </div>
+              </div>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+              <script>function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+              }</script>
+           
+              <div id="navbar">
+                <a href="#about">Dashboard</a>
+                <a href="#projects">Store</a>
+              </div>
+            
+        </div>
+    </body>
+</html>
